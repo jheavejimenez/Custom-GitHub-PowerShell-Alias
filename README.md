@@ -10,7 +10,7 @@ Paste this command
 ```bash
 code . $PROFILE.AllUsersAllHosts
 ```
-Put this in your file
+Put this on your file
 
 ```
 function Get-GitStatus { & git status -sb $args } 
