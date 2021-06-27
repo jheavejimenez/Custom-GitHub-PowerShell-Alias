@@ -17,8 +17,10 @@ function Get-GitCheckout { & git checkout $args }
 New-Alias -Name gch -Value Get-GitCheckout -Force -Option AllScope 
 
 function Get-GitCheckoutBranch { & git checkout -b $args } 
-New-Alias -Name gchb -Value Get-GitCheckoutBranch -Force -Option AllScope 
+New-Alias -Name gchb -Value Get-GitCheckoutBranch -Force -Option AllScope
+ 
 function Get-GitBranch { & git branch $args } 
-New-Alias -Name gb -Value Get-GitBranch -Force -Option AllScope 
+New-Alias -Name gb -Value Get-GitBranch -Force -Option AllScope
+
 function Get-GitPull { & git pull $args }
 New-Alias -Name gpl -Value Get-GitPull -Force -Option AllScope
