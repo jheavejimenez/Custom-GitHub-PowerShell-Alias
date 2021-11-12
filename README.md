@@ -40,6 +40,9 @@ New-Alias -Name gb -Value Get-GitBranch -Force -Option AllScope
 function Get-GitPull { & git pull $args }
 New-Alias -Name gpl -Value Get-GitPull -Force -Option AllScope
 
+function Get-GitClone { & git clone $args }
+New-Alias -Name gcl -Value Get-GitClone -Force -Option AllScope
+
 ```
 Save the file as
 ```bash
